@@ -16,7 +16,7 @@ a, a:hover {
 
 }
 
-.button {
+button {
     font-family: 'Lato', Helvetica, Arial, sans-serif;
 }
 
@@ -77,7 +77,8 @@ a, a:hover {
 .hero {
     background: url(../img/hackjam.jpg);
     background-size: cover;
-    height: 100%;
+    width: 100%;
+    padding-top: 56.25%;
 }
 
 .intro-text {
@@ -160,8 +161,8 @@ h4 {
 }
 
 .row {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 .row > .row-narrow {
