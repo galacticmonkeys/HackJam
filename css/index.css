@@ -1,1 +1,185 @@
-body{font-family:'Raleway',Helvetica,Arial,sans-serif;font-weight:400;background-color:rgba(0,0,0,0.02);}.b    utton{font-family:'Raleway',Helvetica,Arial,sans-serif;}.button-group li{padding-top:3%;}.button-group a{color:rgba(0,0,0,1);backg    round-color:transparent;}.button-group a:hover{color:rgba(0,0,0,0.4);background-color:transparent;}.button-group{float:none;}@medi    a only screen and (min-width: 40.063em) {.button-group{float:right;}}.namelogo{padding:20px 10px 0px 10px;}@media only screen and     (min-width: 40.063em) {.namelogo{padding-bottom:20px;}}.namelogo h1{font-size:1.5em;font-weight:600;text-align:center;}@media only     screen and (min-width: 40.063em) {.namelogo h1{font-size:16px;text-align:left;}}@media only screen and (min-width: 64.063em) {.na    melogo h1{font-size:24px;text-align:left;}}.hero{background:url(../img/hackjam.jpg);background-size:cover;height:100%;}.intro-text{pa    dding-top:40%;color:rgba(255,255,255,1);text-align:center;}@media only screen and (min-width: 40.063em) {.intro-text{padding-top:2    5%;}}@media only screen and (min-width: 64.063em) {.intro-text{padding-top:18%;}}.intro-text p{font-family:'Shadows Into Light',cu    rsive;font-size:44px;}.about img{width:250px;height:250px;border-radius:150px;-webkit-border-radius:150px;-moz-border-radius:150px    ;}.work img:hover{opacity:0.5;-webkit-transition:0.3s ease;-moz-transition:0.3s ease;-ms-transition:0.3s ease;-o-transition:0.3s e    ase;transition:0.3s ease;}.work li{height:140px;overflow:hidden;}hr{border:0;height:1px;background-image:-webkit-linear-gradient(l    eft,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));background-image:-moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0    ,0,0,0));background-image:-ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));background-image:-o-linear-gradie    nt(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));opacity:0.8;}footer{text-align: center;margin-bottom: 15px; margin-top:15px;     font-size: 12px;}footer a:hover{color:rgba(0,0,0,0.4);background-color:transparent;}h4{text-align:center; margin: 20px;font-size:     40px;}.center{text-align: center;}.row{height: 100vh;}.about{background-color: #29A2C6;}.schedule{background-color: #FFCB18;}.wor    k{background-color: #73B66B;}.register{background-color: #FF6D31;}.faq{background-color: #EF597B;}.mentoring{background-color: #73B66B;}
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+a, a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.button {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.button-group li {
+    padding-top: 3%;
+}
+
+.button-group a {
+    color: rgba(0, 0, 0, 1);
+    backg round-color: transparent;
+}
+
+.button-group a:hover {
+    color: rgba(0, 0, 0, 0.4);
+    background-color: transparent;
+}
+
+.button-group {
+    float: none;
+}
+
+@media only screen and (min-width: 40.063em) {
+    .button-group {
+        float: right;
+    }
+}
+
+.namelogo {
+    padding: 20px 10px 0px 10px;
+}
+
+@media only screen and (min-width: 40.063em) {
+    .namelogo {
+        padding-bottom: 20px;
+    }
+}
+
+.namelogo h1 {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media only screen and (min-width: 40.063em) {
+    .namelogo h1 {
+        font-size: 16px;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 64.063em) {
+    .namelogo h1 {
+        font-size: 24px;
+        text-align: left;
+    }
+}
+
+.hero {
+    background: url(../img/hackjam.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.intro-text {
+    pa dding-top: 40%;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+@media only screen and (min-width: 40.063em) {
+    .intro-text {
+        padding-top: 2 5%;
+    }
+}
+
+@media only screen and (min-width: 64.063em) {
+    .intro-text {
+        padding-top: 18%;
+    }
+}
+
+.intro-text p {
+    font-family: 'Shadows Into Light', cu rsive;
+    font-size: 44px;
+}
+
+.about img {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+}
+
+.work img:hover {
+    opacity: 0.5;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s e ase;
+    transition: 0.3s ease;
+}
+
+.work li {
+    height: 140px;
+    overflow: hidden;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(l eft, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradie nt(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    opacity: 0.8;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+footer a:hover {
+    color: rgba(0, 0, 0, 0.4);
+    background-color: transparent;
+}
+
+h4 {
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.row {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.about {
+    background-color: #7962A6;
+    color: white;
+}
+
+.schedule {
+    background-color: #C05F95;
+    color: white;
+}
+
+.register {
+    background-color: #66A4D5;
+    color: white;
+}
+
+.faq {
+    background-color: #78B188;
+    color: white;
+}
+
+.mentoring {
+    background-color: #EBC556;
+    color: white;
+}
