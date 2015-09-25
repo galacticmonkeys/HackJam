@@ -1,14 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
-body {
+body, p {
     font-family: 'Lato', Helvetica, Arial, sans-serif;
     font-weight: 400;
+    font-size: 25px;    
     background-color: rgba(0, 0, 0, 0.02);
+}
+p{
+    background-color: transparent;
 }
 
 a, a:hover {
   color: inherit;
   text-decoration: underline;
+
 }
 
 button {
@@ -21,7 +26,7 @@ button {
 
 .button-group a {
     color: rgba(0, 0, 0, 1);
-    backg round-color: transparent;
+    background-color: transparent;
 }
 
 .button-group a:hover {
@@ -77,7 +82,7 @@ button {
 }
 
 .intro-text {
-    pa dding-top: 40%;
+    padding-top: 40%;
     color: rgba(255, 255, 255, 1);
     text-align: center;
 }
@@ -131,11 +136,11 @@ hr {
     opacity: 0.8;
 }
 
-footer {
+footer > p {
     text-align: center;
     margin-bottom: 15px;
     margin-top: 15px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 footer a:hover {
@@ -160,6 +165,10 @@ h4 {
     padding-bottom: 8rem;
 }
 
+.row > .row-narrow {
+    max-width: 35rem;
+}
+
 .about {
     background-color: #7962A6;
     color: white;
@@ -178,6 +187,12 @@ h4 {
 .faq {
     background-color: #78B188;
     color: white;
+}
+
+.faq .question {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-bottom: 2em;
+
 }
 
 .mentoring {
