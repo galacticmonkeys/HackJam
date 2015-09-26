@@ -7,8 +7,10 @@
   <title>HackJam</title>
   <link rel="stylesheet" href="css/foundation.css" />
   <link rel="stylesheet" href="css/index.css" />
+  <script src="js/index.js"></script>
 </head>
 <body>
+
   <div class="hero">
   </div>
 
@@ -56,8 +58,10 @@
     <div class="row">
       <h4>What are you waiting for?</h4>
       <div class="center">
-        <a href="https://bit.ly/hackjamreg"><button>Come to HackJam!</button></a>
-      </div>
+        <!-- <a id="sign-up-button" href="https://bit.ly/hackjamreg"><button>Come to HackJam!</button></a> -->
+        <button id="sign-up-button" onclick="showIFrame()">Come to HackJam!</button>
+        <iframe id="typeform" width="100%" height="100%" frameborder="0" src="https://hackjam.typeform.com/to/e3IoJs"></iframe>
+      </div> <!-- ./center -->
     </div> <!-- ./row -->
   </div> <!-- ./register -->
 

@@ -199,3 +199,8 @@ h4 {
     background-color: #EBC556;
     color: white;
 }
+
+#typeform {
+  display: none;
+  height: 500px;
+}
