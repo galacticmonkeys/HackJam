@@ -204,3 +204,13 @@ h4 {
   display: none;
   height: 500px;
 }
+
+#emu {
+    position: fixed;
+    display: none;
+    z-index: 2;
+    margin: 0 auto;
+    top: 50%;
+    left: 35%;
+    text-align: center;
+}
