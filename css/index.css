@@ -205,12 +205,13 @@ h4 {
   height: 500px;
 }
 
-iframe#emus {
+#emus {
     position: fixed;
-    display: none;
-    z-index: 50;
+    display: block;
+    z-index: 5;
     margin: 0 auto;
     top: 50%;
     left: 35%;
     text-align: center;
+    border: none;
 }
