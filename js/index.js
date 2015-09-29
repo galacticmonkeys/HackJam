@@ -29,7 +29,21 @@ function showIFrame() {
 
   function displayEmus() {
     console.log('YOU EMUED THIS SHIT');
-    var iframe = document.getElementById("emus");
+    var iframe = document.getElementById('emus');
     iframe.style.display = 'block';
+    var startTime = Date.now();
+    var durration = 14000;
+    countdownToHide = setInterval(function() {
+      var remainingTime = (durration - (Date.now() - startTime));
+      console.log(remainingTime);
+      if(remainingTime <= 0) hideEmus();      
+    }, 100);
+  }
+
+  function hideEmus() {
+    console.log('SAY GOODBYE TO EMUS');
+    var iframe = document.getElementById('emus');
+    iframe.style.display =  'none';
+    clearInterval(countdownToHide);
   }
 })();
