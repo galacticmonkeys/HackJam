@@ -29,7 +29,6 @@ function showIFrame() {
   });
 
   function displayEmus() {
-    console.log('YOU EMUED THIS SHIT');
     var iframe = document.createElement('iframe');
     iframe.style += '-webkit-backface-visibility: hidden;-webkit-transform: scale(1);'
     iframe.src = 'http://gfycat.com/ifr/BriskMiniatureArmyant';
@@ -44,13 +43,11 @@ function showIFrame() {
     var durration = 14000;
     countdownToHide = setInterval(function() {
       var remainingTime = (durration - (Date.now() - startTime));
-      console.log(remainingTime);
       if(remainingTime <= 0) hideEmus();      
     }, 100);
   }
 
   function hideEmus() {
-    console.log('SAY GOODBYE TO EMUS');
     var iframe = document.getElementById('emus');
     iframe.parentElement.removeChild(iframe);
     clearInterval(countdownToHide);

@@ -141,6 +141,7 @@ footer > p {
     margin-bottom: 15px;
     margin-top: 15px;
     font-size: 16px;
+    line-height: 0.8em;
 }
 
 footer a:hover {
@@ -214,4 +215,9 @@ h4 {
     left: 35%;
     text-align: center;
     border: none;
+}
+
+#emu-hint {
+    font-size: 10px;
+    color: rgba(0,0,0,0.6);
 }
