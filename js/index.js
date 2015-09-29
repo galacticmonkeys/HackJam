@@ -14,22 +14,22 @@ function showIFrame() {
   document.addEventListener("keydown", function(e){
     if(e.keyCode === 69 ) {
       currentString += 'e';
-      console.log(e.keyCode);
-      console.log(currentString);
     }
     if(e.keyCode === 77) {
       currentString += 'm';
-      console.log(currentString);
     }
     if(e.keyCode === 85) {
       currentString += 'u';
-      console.log(currentString);
     }
     
-    if(currentString === targetString) displayEmus();
-  }, true);
+    if(currentString === targetString){
+      displayEmus();
+    }
+  });
 
   function displayEmus() {
-    document.getElementById('emu').style.display = 'block';
+    console.log('YOU EMUED THIS SHIT');
+    var iframe = document.getElementById("emus");
+    iframe.style.display = 'block';
   }
 })();
