@@ -12,14 +12,9 @@ function showIFrame() {
   var targetString = 'emu';
   var currentString = '';
   document.addEventListener("keydown", function(e){
-    if(e.keyCode === 69 ) {
-      currentString += 'e';
-    }
-    if(e.keyCode === 77) {
-      currentString += 'm';
-    }
-    if(e.keyCode === 85) {
-      currentString += 'u';
+
+    if(e.keyCode === 69  || e.keyCode === 77 || e.keyCode === 85) {
+      currentString += String.fromCharCode(e.keyCode).toLowerCase();
     }
     
     if(currentString === targetString){
