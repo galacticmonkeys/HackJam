@@ -33,7 +33,10 @@ function showIFrame() {
 
     document.body.insertBefore(iframe, document.body.firstChild);
 
+    startCountdown();
+  }
 
+  function startCountdown() {
     var startTime = Date.now();
     var durration = 14000;
     countdownToHide = setInterval(function() {
