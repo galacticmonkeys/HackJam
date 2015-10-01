@@ -1,13 +1,19 @@
 //show iframe and hide button
 function showIFrame() {  
- var iframe = document.getElementById("typeform");  
- var button = document.getElementById("sign-up-button");
- iframe.style.display="block";  
- button.style.display="none";
- iframe.onload = function() {
-   iframe.contentWindow.focus();
- };
+  var iframe = document.getElementById("typeform");  
+  var button = document.getElementById("sign-up-button");
+  iframe.style.display="block";  
+  button.style.display="none";
+  iframe.onload = function() {
+    iframe.contentWindow.focus();
+  };
 }
+
+//pulls down twitter feed on click
+function showTwitterFeed() {
+  console.log('here\'s where twitter feed scrolls!');
+}
+
 (function() {
   var targetString = 'emu';
   var currentString = '';
