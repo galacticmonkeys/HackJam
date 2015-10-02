@@ -32,6 +32,7 @@ function showTwitterFeed() {
   $("#twitter-body").slideToggle("slow", changeText());
 }
 
+//toggles the twitter banner text appropriately
 var opened = false;
 function changeText() {
   opened = !opened;
