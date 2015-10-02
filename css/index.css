@@ -18,6 +18,7 @@ a, a:hover {
 
 button {
     font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-size: 25px;
 }
 
 .button-group li {
