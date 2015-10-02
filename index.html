@@ -7,11 +7,17 @@
   <title>HackJam</title>
   <link rel="stylesheet" href="css/foundation.css" />
   <link rel="stylesheet" href="css/index.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="js/index.js"></script>
+
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </head>
 <body>
 
   <div id="twitter-feed" onclick="showTwitterFeed()">
+     <div id="twitter-body" class="center">
+       <a class="twitter-timeline" href="https://twitter.com/HackBerkeley" data-widget-id="649709535200870400">Tweets by @HackBerkeley</a>
+     </div>
      <div id="twitter-banner" class="center">
        Check out our live tweets! &#8675
      </div>
@@ -21,7 +27,7 @@
   </div>
 
   <div class="about">
-    <div class="row">     
+    <div class="row">
       <h4>What is HackJam?</h4>
       <div class="medium-6 large-8 large-offset-2 large-centered columns">
         <p>
@@ -83,7 +89,7 @@
 
         <div class="question">
           <p><strong>What if I show up without registering?</strong><br></p>
-          <p>No food for you (because we'll have ordered food without knowing you'll be there). Seriously please register. It really helps us out</p> 
+          <p>No food for you (because we'll have ordered food without knowing you'll be there). Seriously please register. It really helps us out</p>
         </div>
 
         <div class="question">
