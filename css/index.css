@@ -149,10 +149,10 @@ footer a:hover {
     background-color: transparent;
 }
 
-h4 {
+h3 {
     text-align: center;
-    margin: 20px;
-    font-size: 40px;
+    margin: 1em;
+    font-size: 50px;
     color: white;
     font-family: 'Lato', Helvetica, Arial, sans-serif;
 }
