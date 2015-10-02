@@ -180,8 +180,8 @@ h4 {
     color: white;
 }
 
-.schedule table {
-    border-spacing: 3em;
+.event {
+    margin-bottom: 2em;
 }
 
 .register {
@@ -199,7 +199,6 @@ h4 {
     margin-bottom: 2em;
 
 }
-
 .mentoring {
     background-color: #EBC556;
     color: white;
