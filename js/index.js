@@ -1,17 +1,45 @@
 //show iframe and hide button
-function showIFrame() {  
-  var iframe = document.getElementById("typeform");  
+function showIFrame() {
+  var iframe = document.getElementById("typeform");
   var button = document.getElementById("sign-up-button");
-  iframe.style.display="block";  
+  iframe.style.display="block";
   button.style.display="none";
   iframe.onload = function() {
     iframe.contentWindow.focus();
   };
 }
 
-//pulls down twitter feed on click
+//helper jQuery function
+jQuery.fn.extend({
+    toggleText: function (a, b){
+        var that = this;
+            if (that.text() != a && that.text() != b){
+                that.text(a);
+            }
+            else
+            if (that.text() == a){
+                that.text(b);
+            }
+            else
+            if (that.text() == b){
+                that.text(a);
+            }
+        return this;
+    }
+});
+//toggles twitter feed on click
 function showTwitterFeed() {
-  console.log('here\'s where twitter feed scrolls!');
+  $("#twitter-body").slideToggle("slow", changeText());
+}
+
+var opened = false;
+function changeText() {
+  opened = !opened;
+  if (opened) {
+    $("#twitter-banner").html("Close Feed &#8673");
+  } else {
+    $("#twitter-banner").html("Check out our live tweets! &#8675");
+  }
 }
 
 (function() {
@@ -22,7 +50,7 @@ function showTwitterFeed() {
     if(e.keyCode === 69  || e.keyCode === 77 || e.keyCode === 85) {
       currentString += String.fromCharCode(e.keyCode).toLowerCase();
     }
-    
+
     if(currentString === targetString){
       currentString = '';
       displayEmus();
@@ -47,7 +75,7 @@ function showTwitterFeed() {
     var durration = 14000;
     countdownToHide = setInterval(function() {
       var remainingTime = (durration - (Date.now() - startTime));
-      if(remainingTime <= 0) hideEmus();      
+      if(remainingTime <= 0) hideEmus();
     }, 100);
   }
 
