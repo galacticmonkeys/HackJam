@@ -60,7 +60,7 @@ function changeText() {
 
   function displayEmus() {
     var iframe = document.createElement('iframe');
-    iframe.style += '-webkit-backface-visibility: hidden;-webkit-transform: scale(1);'
+    iframe.style += '-webkit-backface-visibility: hidden;-webkit-transform: scale(1);';
     iframe.src = 'http://gfycat.com/ifr/BriskMiniatureArmyant';
     iframe.width = '512';
     iframe.height = '298';
