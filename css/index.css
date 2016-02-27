@@ -10,7 +10,9 @@ p{
     background-color: transparent;
 }
 
-a, a:hover {
+a{ text-decoration: none }
+
+a:hover {
   color: inherit;
   text-decoration: underline;
 
@@ -143,6 +145,10 @@ footer > p {
     margin-top: 15px;
     font-size: 16px;
     line-height: 0.8em;
+}
+
+footer a {
+  color:inherit;
 }
 
 footer a:hover {
