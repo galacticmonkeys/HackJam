@@ -78,10 +78,16 @@ button {
 }
 
 .hero {
-    background: url(../img/hackjam.jpg);
-    background-size: cover;
+    background: url(../img/pattern.svg);
+    background-repeat: repeat;
+    background-size: 57px;
     width: 100%;
-    padding-top: 56.25%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero img {
+	max-height: 125vh;
 }
 
 .intro-text {
@@ -233,6 +239,7 @@ h3 {
 }
 
 #twitter-feed {
+	display: none;
     width: 100%;
     height: 50px;
     position: fixed;
