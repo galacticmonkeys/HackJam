@@ -41,40 +41,14 @@ button {
     float: none;
 }
 
-@media only screen and (min-width: 40.063em) {
-    .button-group {
-        float: right;
-    }
-}
-
 .namelogo {
     padding: 20px 10px 0px 10px;
-}
-
-@media only screen and (min-width: 40.063em) {
-    .namelogo {
-        padding-bottom: 20px;
-    }
 }
 
 .namelogo h1 {
     font-size: 1.5em;
     font-weight: 600;
     text-align: center;
-}
-
-@media only screen and (min-width: 40.063em) {
-    .namelogo h1 {
-        font-size: 16px;
-        text-align: left;
-    }
-}
-
-@media only screen and (min-width: 64.063em) {
-    .namelogo h1 {
-        font-size: 24px;
-        text-align: left;
-    }
 }
 
 .hero {
@@ -84,10 +58,38 @@ button {
     width: 100%;
     height: 100vh;
     overflow: hidden;
+    display: flex;
+}
+
+@media only screen and (max-width: 767px) {
+	.hero {
+		height: 50vh;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+    .button-group {
+        float: right;
+    }
+    .namelogo {
+        padding-bottom: 20px;
+    }
+    .namelogo h1 {
+        font-size: 16px;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .namelogo h1 {
+        font-size: 24px;
+        text-align: left;
+    }
 }
 
 .hero img {
 	max-height: 125vh;
+	width: 100%
 }
 
 .intro-text {
