@@ -147,21 +147,23 @@ hr {
     opacity: 0.8;
 }
 
+footer {
+	background-color: #1A237E;
+	padding: 15px 0;
+}
+
 footer > p {
     text-align: center;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    font-size: 16px;
-    line-height: 0.8em;
+    font-size: 1.25rem;
+    color: #FFFFFF;
 }
 
 footer a {
-  color:inherit;
+  color: #FFFFFF;
 }
 
 footer a:hover {
-    color: rgba(0, 0, 0, 0.4);
-    background-color: transparent;
+    color: #9FA8DA;
 }
 
 h3 {
@@ -186,7 +188,7 @@ h3 {
 }
 
 .about {
-    background-color: #7962A6;
+    background-color: #EF6C00;
     color: white;
 }
 
@@ -215,7 +217,7 @@ h3 {
 
 }
 .mentoring {
-    background-color: #EBC556;
+    background-color: #7962A6;
     color: white;
 }
 
